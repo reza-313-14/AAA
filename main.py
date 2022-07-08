@@ -1,11 +1,17 @@
-from fastapi import APIRouter, FastAPI
+from fastapi import FastAPI
 from fastapi.requests import Request
 from database.db import get_db
+from router import admin
+from database import models
+from database.db import engine
 
 
 app = FastAPI()
 
+app.include_router(admin.router)
 
+
+models.Base.metadata.create_all(engine)
 
 
 @app.middleware('http')
