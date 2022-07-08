@@ -95,3 +95,21 @@
     url : http://localhost:8000/admin/register
     method : POST
     
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44096
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44096
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44102
+    url : http://localhost:8000/admin/admins
+    method : GET
+    

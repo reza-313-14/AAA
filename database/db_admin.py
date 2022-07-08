@@ -19,3 +19,7 @@ def create_admin(db:Session, request:AdminBase):
     db.commit()
     db.refresh(admin)
     return admin
+
+
+def get_all_admins(db:Session):
+    return db.query(DbAdmin).all()
