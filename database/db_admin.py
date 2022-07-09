@@ -23,3 +23,7 @@ def create_admin(db:Session, request:AdminBase):
 
 def get_all_admins(db:Session):
     return db.query(DbAdmin).all()
+
+
+def get_admin(id, db: Session):
+    return db.query(DbAdmin).filter(DbAdmin.id == id).first()

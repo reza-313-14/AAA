@@ -113,3 +113,75 @@
     url : http://localhost:8000/admin/admins
     method : GET
     
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46546
+    url : http://localhost:8000/
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46548
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46548
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46548
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46548
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46550
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46550
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46552
+    url : http://localhost:8000/admin/admin/1
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46554
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46554
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46556
+    url : http://localhost:8000/admin/admin/3
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46558
+    url : http://localhost:8000/admin/admin/1
+    method : GET
+    
