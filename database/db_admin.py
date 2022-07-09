@@ -29,7 +29,12 @@ def get_all_admins(db:Session):
 
 
 def get_admin(id, db: Session):
-    return db.query(DbAdmin).filter(DbAdmin.id == id).first()
+    admin = db.query(DbAdmin).filter(DbAdmin.id == id).first()
+    
+    if not admin:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f'admin with ID {id} could not be found')
+        
+    return admin
 
 
 def get_admin_by_username(username, db:Session):
