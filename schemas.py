@@ -9,6 +9,7 @@ class AdminBase(BaseModel):
     
 
 class AdminDisplay(BaseModel):
+    id: int
     username: str
     email: str
     class Config:

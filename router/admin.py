@@ -26,7 +26,7 @@ def get_all_admins(db= Depends(get_db)):
 # get admin
 @router.get('/admin/{id}', response_model=AdminDisplay)
 def get_admin_by_id(id: int, db= Depends(get_db)):
-    # style
+    # style 1
     admin = db_admin.get_admin(id, db)
     if not admin:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f'admin with ID {id} could not be found')
@@ -38,3 +38,9 @@ def get_admin_by_id(id: int, db= Depends(get_db)):
 @router.get('/admin/username/{username}', response_model=List[AdminDisplay])
 def get_admin_by_username(username: str, db= Depends(get_db)):
     return db_admin.get_admin_by_username(username, db)
+
+
+# delete admin
+@router.get('/delete/{id}')
+def delete_admin(id: int, db= Depends(get_db)):
+    return db_admin.delete_admin(id, db)

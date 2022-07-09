@@ -38,3 +38,13 @@ def get_admin_by_username(username, db:Session):
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"admin with UserName {username} could not be found")
     
     return admins
+
+
+def delete_admin(id, db:Session):
+    admin = get_admin(id, db)
+    if not admin:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"admin with UserName {id} could not be found")
+    
+    db.delete(admin)
+    db.commit()
+    return {'message': f'admin {admin.username} deleted'}
