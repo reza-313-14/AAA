@@ -44,3 +44,9 @@ def get_admin_by_username(username: str, db= Depends(get_db)):
 @router.get('/delete/{id}')
 def delete_admin(id: int, db= Depends(get_db)):
     return db_admin.delete_admin(id, db)
+
+
+# update admin
+@router.post('/update/{id}')
+def update_admin(id: int, admin: AdminBase ,db= Depends(get_db)):
+    return db_admin.update_admin(id, db, admin)

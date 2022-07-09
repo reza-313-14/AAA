@@ -4,6 +4,7 @@ from schemas import AdminBase
 from database.models import DbAdmin
 from database.hash import Hash
 from fastapi import status
+from database.hash import Hash
 
 
 def create_admin(db:Session, request:AdminBase):
@@ -48,3 +49,18 @@ def delete_admin(id, db:Session):
     db.delete(admin)
     db.commit()
     return {'message': f'admin {admin.username} deleted'}
+
+
+def update_admin(id, db:Session, request: AdminBase):
+    admin = db.query(DbAdmin).filter(DbAdmin.id == id)
+    
+    if not admin:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"admin with UserName {id} could not be found")
+    
+    admin.update({
+        DbAdmin.username: request.username,
+        DbAdmin.email: request.email,
+        DbAdmin.password: Hash.bcrypt(request.password)
+    })
+    db.commit()
+    return {'message': 'ok'}
