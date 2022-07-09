@@ -479,3 +479,399 @@
     url : http://localhost:8000/admin/admin/4
     method : GET
     
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44206
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44206
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44212
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44212
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44214
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44214
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44216
+    url : http://localhost:8000/article/create
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44218
+    url : http://localhost:8000/article/create
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44220
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44220
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44222
+    url : http://localhost:8000/article/create
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44224
+    url : http://localhost:8000/admin/register
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44226
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44226
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44228
+    url : http://localhost:8000/admin/register
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44230
+    url : http://localhost:8000/article/create
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44232
+    url : http://localhost:8000/article/create
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44234
+    url : http://localhost:8000/article/create
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44236
+    url : http://localhost:8000/article/create
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44238
+    url : http://localhost:8000/article/create
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44240
+    url : http://localhost:8000/article/create
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 44242
+    url : http://localhost:8000/article/create
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59248
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59248
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59248
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59248
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59250
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59250
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59252
+    url : http://localhost:8000/admin/admins
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59254
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59254
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59256
+    url : http://localhost:8000/admin/register
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59262
+    url : http://localhost:8000/admin/register
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59264
+    url : http://localhost:8000/article/create
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59266
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59266
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59268
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59268
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59270
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59270
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59272
+    url : http://localhost:8000/admin/admins
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59274
+    url : http://localhost:8000/admin/register
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59276
+    url : http://localhost:8000/article/create?articleCategory=Kotlin
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59278
+    url : http://localhost:8000/article/create?articleCategory=Kotlin
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59280
+    url : http://localhost:8000/article/create?articleCategory=Kotlin
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59282
+    url : http://localhost:8000/article/create?articleCategory=Kotlin
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59284
+    url : http://localhost:8000/article/create?articleCategory=Kotlin
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59330
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59330
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59332
+    url : http://localhost:8000/article/create?articleCategory=JavaScript
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59334
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59334
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59336
+    url : http://localhost:8000/article/create?articleCategory=Python
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59338
+    url : http://localhost:8000/article/create?articleCategory=Python
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59340
+    url : http://localhost:8000/article/create?articleCategory=Python
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59342
+    url : http://localhost:8000/admin/register
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59344
+    url : http://localhost:8000/admin/register
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59346
+    url : http://localhost:8000/admin/register
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59348
+    url : http://localhost:8000/admin/register
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59350
+    url : http://localhost:8000/admin/admins
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59352
+    url : http://localhost:8000/admin/admin/4
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59354
+    url : http://localhost:8000/admin/delete/4
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59356
+    url : http://localhost:8000/admin/admins
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59358
+    url : http://localhost:8000/admin/update/3
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59360
+    url : http://localhost:8000/admin/admins
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 59362
+    url : http://localhost:8000/article/create?articleCategory=Python
+    method : POST
+    
