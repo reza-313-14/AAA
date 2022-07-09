@@ -1,7 +1,9 @@
+from fastapi.exceptions import HTTPException
 from sqlalchemy.orm.session import Session
 from schemas import AdminBase
 from database.models import DbAdmin
 from database.hash import Hash
+from fastapi import status
 
 
 def create_admin(db:Session, request:AdminBase):
@@ -27,3 +29,12 @@ def get_all_admins(db:Session):
 
 def get_admin(id, db: Session):
     return db.query(DbAdmin).filter(DbAdmin.id == id).first()
+
+
+def get_admin_by_username(username, db:Session):
+    admins = db.query(DbAdmin).filter(DbAdmin.username == username).all()
+    
+    if not admins:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"admin with UserName {username} could not be found")
+    
+    return admins

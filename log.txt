@@ -185,3 +185,141 @@
     url : http://localhost:8000/admin/admin/1
     method : GET
     
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46560
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46560
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46562
+    url : http://localhost:8000/admin/admin/reza
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46564
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46564
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46566
+    url : http://localhost:8000/admin/admin/username/reza
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46568
+    url : http://localhost:8000/admin/admin/username/reza
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46570
+    url : http://localhost:8000/admin/admin/username/reza
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46572
+    url : http://localhost:8000/admin/admin/username/reza
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46574
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46574
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46576
+    url : http://localhost:8000/admin/admin/username/reza
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46578
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46578
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46580
+    url : http://localhost:8000/admin/register
+    method : POST
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46582
+    url : http://localhost:8000/admin/admin/username/reza
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46584
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46584
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46586
+    url : http://localhost:8000/admin/admin/username/reza
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46588
+    url : http://localhost:8000/docs
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46588
+    url : http://localhost:8000/openapi.json
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46590
+    url : http://localhost:8000/admin/admin/username/mahdi
+    method : GET
+    
+    -------------log-----------
+    host : 127.0.0.1
+    port : 46592
+    url : http://localhost:8000/admin/admin/username/reza
+    method : GET
+    
