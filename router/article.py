@@ -1,3 +1,4 @@
+from typing import List
 from fastapi import APIRouter, Depends
 from database import db_article
 from database.db import get_db
@@ -27,3 +28,19 @@ def create_article(article: ArticleBase, articleCategory: ArticleCategory, db= D
     print(article)
     print(db)
     return db_article.create_article(db=db, request=article, article_category=articleCategory)
+
+
+@router.get('/get/{id}', response_model=ArticleDisplay)
+def get_article(id: int, db= Depends(get_db)):
+    return db_article.get_article(id, db)
+
+
+
+@router.get('/all', response_model=List[ArticleDisplay])
+def get_all_articles(db= Depends(get_db)):
+    return db_article.get_all_articles(db)
+
+
+@router.get('/delete/{id}')
+def delete_artice(id: int, db= Depends(get_db)):
+    return db_article.delete_article(id, db)

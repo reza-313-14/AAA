@@ -8,7 +8,14 @@ from database.db import engine
 
 models.Base.metadata.create_all(engine)
 
-app = FastAPI()
+app = FastAPI(
+    title="my app",
+    description="description of my app",
+    version="1.0",
+    docs_url="/docs",
+    openapi_url="/openapi.json",
+    redoc_url=None
+)
 
 app.include_router(admin.router)
 app.include_router(article.router)
